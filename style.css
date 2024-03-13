@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+nav {
+    background-color: rgb(18, 18, 18);
+display: flex;
+justify-content: space-between;
+align-content: center;
+}
+ul{
+    padding: 1.3em;
+    list-style: none;
+
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    margin: 0.3em;
+    color: white;
+    
+   
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+main{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(194, 193, 193);
+}
+.foto_perfil{
+    width: 15vw;
+    
+}
+.acerca_de_mi{
+    padding: 10vh;
+    width: 30%;
+}
+.acerca_de_mi p{
+    text-align: right;
+}
+.acerca_de_mi h2{
+    text-align: right;
+}
+.img2{
+    width: 100%;
+    height: 50vh;
+}
+.cards{
+display: flex;
+justify-content: space-around;
+}
+.img_card{
+    width: 20vw;
+    border-radius: 10%;
+}
+.trabajos_section{
+display: block;
+text-align: center;
+}
+footer{
+    background-color: rgb(18, 18, 18);
+}
+.text_card{
+    width: 20vw;
+}
+.titulo_footer{
+    color: rgb(232, 95, 70);
+    font-weight: 500;
+}
+.text_card{
+    text-align: left;
+}
